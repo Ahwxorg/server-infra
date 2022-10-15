@@ -6,7 +6,7 @@
 doas gdisk /dev/sdb
 doas gdisk /dev/sdc
 doas gdisk /dev/sdd
-doas gdisk /dev/sde
+doas gdisk /dev/sde```
 
 GPT fdisk (gdisk) version 1.0.6
 Command (? for help): o
