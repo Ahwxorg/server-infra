@@ -1,6 +1,7 @@
 ### Copy keys from SSH client to server
 
-```ssh-copy-id earth
+```
+ssh-copy-id earth
 ssh earth
 doas nvim /etc/ssh/sshd_config
 
