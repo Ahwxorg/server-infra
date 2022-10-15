@@ -18,11 +18,11 @@ OK; writing new GUID partition table (GPT) to /dev/sda.
 The operation has completed successfully.```
 
 # Make filesystem
-doas mkfs.ext4 /dev/sda1
+```doas mkfs.ext4 /dev/sda1
 doas mkfs.ext4 /dev/sdb1
 doas mkfs.ext4 /dev/sdc1
 doas mkfs.ext4 /dev/sdd1
-doas mkfs.ext4 /dev/sde1
+doas mkfs.ext4 /dev/sde1```
 
 # Find drives by UUID
 ```sudo lsblk --output NAME,FSTYPE,LABEL,UUID,MODE```
