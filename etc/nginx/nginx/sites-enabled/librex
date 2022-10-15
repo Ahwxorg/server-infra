@@ -1,0 +1,13 @@
+server {
+        listen 80;
+
+        server_name search.ahwx.org;
+
+        root /var/www/html/librex;
+        index index.php;
+
+        location ~ \.php$ {
+               include snippets/fastcgi-php.conf;
+               fastcgi_pass unix:/run/php/php7.4-fpm.sock;
+        }
+}
