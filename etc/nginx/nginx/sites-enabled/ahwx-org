@@ -1,0 +1,10 @@
+server {
+        listen 80 ;
+        listen [::]:80 ;
+        server_name ahwx.org ;
+        root /var/www/html/ahwx-org;
+        index index.html ;
+        location / {
+                try_files $uri $uri/ =404 ;
+        }
+}
