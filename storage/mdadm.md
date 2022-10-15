@@ -1,7 +1,7 @@
-## Install deps
+### Install deps
 ```doas apt update && doas apt upgrade && doas apt install nfs-server samba gdisk mdadm```
 
-## Format drives (only needed once but I'll keep it here since I will probably add drives at some point)
+### Format drives (only needed once but I'll keep it here since I will probably add drives at some point)
 ```doas gdisk /dev/sda
 doas gdisk /dev/sdb
 doas gdisk /dev/sdc
